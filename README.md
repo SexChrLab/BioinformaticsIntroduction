@@ -41,10 +41,13 @@ Alternatively you may want a GUI-based text editor, like Sublime:
 
 		https://www.sublimetext.com/
 
+Or Atom:
+		https://atom.io/
+
 ## 3. Introduction to python
 There are many different languages that we can write code or scripts in for analyzing our data. One of the most commonly used langauges in bioinfomatics is python. The tutorial at codecademy can help you get started with learning python syntax, though there are many other places to learn coding in python.
 
-		https://www.codecademy.com/learn/python
+		https://www.codecademy.com/learn/learn-python-3
 
 For advanced python, you can run through the Python Data Science Handbook: 
 
@@ -65,6 +68,10 @@ Similar to python, there are many tutorials for R, but one that many trainees in
 		
 		https://www.datacamp.com/courses/free-introduction-to-r
 
+Alternatively, Data Carpentry has in Intro to R course:
+
+		http://datacarpentry.org/R-ecology-lesson/index.html
+
 Here are videos for how to do basic computation in R, and basic programming in R:
 
 		https://www.youtube.com/watch?v=3xriAzqc-fw
@@ -73,6 +80,10 @@ Here are videos for how to do basic computation in R, and basic programming in R
 For advanced R practice, you can run through R for Data Science: 
 
 		http://r4ds.had.co.nz
+		
+R for Data Science solutions are available here:
+
+		https://jrnold.github.io/r4ds-exercise-solutions/
 
 Or you can work in R studio using the swirl R package: 
 
@@ -133,16 +144,32 @@ Common SFTP GUIs are CyberDuck:
 		https://cyberduck.io/
 And FileZilla: 
 
-		https://cyberduck.io/
+		https://filezilla-project.org/
 
 ## 9. Snakemake 
 One of the first rules of bioinformatics is that it is (nearly) always worth the time to make your analysis reproducible. Snakemake can help you with reproducible analyses. 
 
 You can start out with this video: 
 
-		https://youtu.be/naRvlRpXLe8
+		https://youtu.be/8xnm_RKkycQ
 
 And this tutorial:
 
 		http://slowkow.com/notes/snakemake-tutorial/
 
+
+## 10. R Shiny
+It can be useful to create interactive plots for your data. One way to do this is with R Shiny.
+
+		https://shiny.rstudio.com/tutorial/
+
+## 11. Databases - MySQL
+Sometimes you may want to create or interact with databases in R.
+
+Here is an introduction in creating MySQL databases and querying them with R:
+
+		https://programminghistorian.org/en/lessons/getting-started-with-mysql-using-r
+
+And some information on R Shiny database basics:
+
+		https://shiny.rstudio.com/articles/overview.html
