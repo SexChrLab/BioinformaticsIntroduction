@@ -100,11 +100,7 @@ SSH is the Secure Shell protocol (so, how to access your account on the cluster 
 
 Here is a tutorial for how to access the ASU cluster via SSH:
 
-		https://saguaro1.asu.edu/howto/logging_in_with_ssh.php
-and
-a tutorial for how to access the ASU cluster via SSH using NoMachine:
-
-		https://saguaro1.asu.edu/howto/logging_in_with_nx.php
+		https://cores.research.asu.edu/research-computing/user-guide#connect
 
 You may also want transfer files to/from the server. There are many ways to do this, but SFTP (Secure File Transfer Protocol) is one way. You can use a variety of tools, including MoabXterm (from above), the SFTP command line tools (https://linux.die.net/man/1/sftp), or a GUI-based SFTP program (people in the lab like FileZilla: https://filezilla-project.org and CyberDuck: https://cyberduck.io - both work for Mac or Windows). 
 
