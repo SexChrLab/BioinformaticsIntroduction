@@ -117,6 +117,10 @@ And here is a SLURM Quick Start Tutorial:
 
 		http://www.ceci-hpc.be/slurm_tutorial.html
 
+Here, you will find a tutorial on making and submitting a sbatch script on Agave:
+
+		https://github.com/SexChrLab/BioinformaticsIntroduction/tree/master/BatchTutorial
+
 ## 7. Git and Github
 Finally we get to the page you're actually on! Git and Github (while separate) are often used together to organize code for projects, allow collaborators to contribute to the project, and most importantly, manage multiple versions of code/documents. We will use Git and GitHub for our projects in lab. While most of the commands are fairly straitforward Git/GitHub uses specific terminology that you'll need to familiarize yourself with. 
 
