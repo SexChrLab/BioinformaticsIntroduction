@@ -16,10 +16,14 @@ Now that you've tried out the command line in a browser, let's see how it works 
 
 If you have a Mac, you actually have two operating systems installed. You have the Mac operating system that you typically interact with, and you have a Unix operating system that you can interact with via the terminal. To find the terminal, you can go to Applications > Utilities and find the application called "Terminal.app". The pathname (remember our Command Line tutorial above) is: /Applications/Utilities/Terminal.app Double click on Terminal.app. You are now in the Unix terminal on your Mac machine. 
 
+There is also a web-accessible terminal that allows you to access Agave without downloading any software, see section 12 below.
+
 #### 2. Windows: Accessing Linux-like command line
 If you are on a Windows machine, you can install MoabXterm, a Linux-like environment that will allow you to run basic Unix commands and to SSH/SFTP. You can install it from here:
 
 		http://mobaxterm.mobatek.net
+
+Other programs like Putty and Cygwin will also allow you to access the cluster. There is also a web-accessible terminal that allows you to access Agave without downloading any software, see section 12 below.
 
 #### 3. Unix/Linux Tutorials 
 Now that you have access to the shell/terminal on your computer, you can run through additional tutorials. Students in the lab have found these tutorials useful: 
@@ -173,3 +177,30 @@ Here is an introduction in creating MySQL databases and querying them with R:
 And some information on R Shiny database basics:
 
 		https://shiny.rstudio.com/articles/overview.html
+
+## 12. Web-accessible access to Agave biocomputing cluster at ASU
+ASU has a web-accessible utility to use a terminal to access Agave, file transfer to and from, run interactive sessions, and more.  
+
+To explore this, open this link in a browser of your choice:
+login.rc.asu.edu
+
+After account verification, you will see a dashboard.  At the top, the Files tab allows you to up and download files from your /home and /scratch directories.  You can also enter or navigate to other drives like /data.  Jobs allows you to keep keep track of jobs you have submitted.  Clusters allows you to open a terminal inside the browser so you don't have to install any additional software.  Interactive Apps allows you to use software like R using web servers that work inside Agave, thus eliminiating the need to transfer files back and forth from your local environment.  This can be very helpful when working with large files. 
+
+## 13. Genomics
+
+If you are new to the bioinformatics of genomics data, here are some videos to get you started.
+
+The BigBio channel on YouTube is a set of short lectures from UCLA that explain the basics of genomics/genetics, biology, statistics, and math:
+https://www.youtube.com/c/BigBiovideos/featured
+
+The NCBI Now! and NCBI Minute series on YouTube are great lectures to help understand basic processes for analysing omics data.  Here is one on DNA seq and variant calling:
+https://youtu.be/2t2HtJ7Je1Q
+
+The Lockdown Learning series by Simon Cockell on YouTube is a large collection of hour-long videos explaining tools and concepts used in omics analysis. For exmaple, here is the video on RNAseq:
+https://youtu.be/OzBWsdvRRDI
+
+The Broad Institute offers video tutorials on many tools and topics.  I specifically recommend the playlist for GATK (Genome Analysis Toolkit) which used very commonly for genomics and transcriptomic data analysis:
+https://youtube.com/playlist?list=PLlMMtlgw6qNiqr_qtiU4CVeKFrlGj3YZO
+
+StatQuest is an awesome channel on YouTube that explains so many of the techniques we use for statistical analysis and machine learning in a clear and easy way. Here is one on p-values for example:
+https://youtu.be/5Z9OIYA8He8
